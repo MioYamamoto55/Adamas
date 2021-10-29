@@ -1,0 +1,23 @@
+開発フロー
+
+ブログ　microCMS?マークダウン式での記述にする
+ログイン(特定のページにアクセスする)→AWS CognitionでアカウントポートとDBでアクセス管理
+
+多言語化(ja & en)
+
+レンダリング
+Loading
+Download
+Parse
+Scripting
+Rendering
+CalculateStyle
+Layout
+Painting
+Paint
+Rasterize
+CompositeLayers
+
+
+
+
