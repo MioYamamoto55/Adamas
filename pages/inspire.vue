@@ -2,7 +2,7 @@
   <v-row>
     <v-col class="text-center">
       <img
-        src="/v.png"
+        src="/AdamasIcon50%.jpg"
         alt="Vuetify.js"
         class="mb-5"
       >
