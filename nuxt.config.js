@@ -6,7 +6,8 @@ export default {
     titleTemplate: '%s - Adamas',
     title: 'Adamas',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'en',
+      lang: 'ja'
     },
     meta: [
       { charset: 'utf-8' },
