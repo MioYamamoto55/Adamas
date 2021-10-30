@@ -2,10 +2,10 @@
 
 ブログ　microCMS?マークダウン式での記述にする
 ログイン(特定のページにアクセスする)→AWS CognitionでアカウントポートとDBでアクセス管理
-
+時計
 多言語化(ja & en)
 
-レンダリング
+レンダリングフロー
 Loading
 Download
 Parse
