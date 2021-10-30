@@ -106,6 +106,10 @@ export default {
           title: 'Inspire',
           to: '/inspire'
         }
+        //add new tab
+        // {
+        //   icon ''
+        // }  
       ],
       miniVariant: false,
       right: true,
