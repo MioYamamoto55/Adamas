@@ -5,7 +5,18 @@
 時計
 多言語化(ja & en)
 
+<<<<<<< HEAD:memo/開発フロー.txt
 レンダリングフロー
+=======
+ローカル実行→リモート(master)で確認
+npm run dev
+
+found 21 vulnerabilities (3 moderate, 18 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+脆弱性があるパッケージが利用されている
+
+レンダリング
+>>>>>>> mk-blogpage:memo/開発フロー
 Loading
 Download
 Parse
@@ -18,6 +29,7 @@ Paint
 Rasterize
 CompositeLayers
 
-
+20211013 microCMSを導入。APIキーの実装
+ npm install --save @nuxtjs/dotenv 
 
 
