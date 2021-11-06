@@ -5,6 +5,13 @@
 
 多言語化(ja & en)
 
+ローカル実行→リモート(master)で確認
+npm run dev
+
+found 21 vulnerabilities (3 moderate, 18 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+脆弱性があるパッケージが利用されている
+
 レンダリング
 Loading
 Download
@@ -18,6 +25,7 @@ Paint
 Rasterize
 CompositeLayers
 
-
+20211013 microCMSを導入。APIキーの実装
+ npm install --save @nuxtjs/dotenv 
 
 

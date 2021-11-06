@@ -105,6 +105,11 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Inspire',
           to: '/inspire'
+        },
+        {
+          icon: "post-online",
+          title: 'blog',
+          to: '/_slug/'
         }
       ],
       miniVariant: false,

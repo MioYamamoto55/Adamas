@@ -1,34 +1,26 @@
 <template>
-  <div>
-    <div v-for="item in items" v-bind:key="item.id">
-      <nuxt-link :to="'blog/' + item.id">
-        <h2>
-          {{ item.name }}
-        </h2>
+  <ul>
+    <li v-for="content in contents" :key="content.id">
+      <nuxt-link :to="`/${content.id}`">
+        {{ content.title }}
       </nuxt-link>
-    </div>
-  </div>
+    </li>
+  </ul>
 </template>
 
 <script>
-import axios from "axios";
-
+import axios from 'axios'
 export default {
-  data() {
-    return {
-      items: []
-    };
-  },
   async asyncData() {
     const { data } = await axios.get(
-      "https://your.microcms.io/api/v1/blog",
+      // your-service-id部分は自分のサービスidに置き換えてください
+      'https://adamas.microcms.io/api/v1/blog',
       {
-        headers: { "X-MICROCMS-API-KEY": process.env.API_KEY }
+        // your-api-key部分は自分のapi-keyに置き換えてください
+        headers: { 'X-MICROCMS-API-KEY': '2c11a11faed7482d9f125755a5b6b2e8e025' }
       }
-    );
-    return {
-      items: data.contents
-    };
+    )
+    return data
   }
-};
+}
 </script>
